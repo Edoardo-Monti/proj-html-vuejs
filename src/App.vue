@@ -24,8 +24,6 @@ export default{
 <template>
   <div>
     <HeaderComp/>
-    <h1 class="animate__animated animate__rubberBand">ciao</h1>
-    
     <MainComp/>
     <FooterComp/>
   </div>
@@ -34,10 +32,4 @@ export default{
 <style lang="scss">
 @use './style/main.scss' as *;
 
-div{
-  
-  h1{
-    color: $Gray;
-  }
-}
 </style>
