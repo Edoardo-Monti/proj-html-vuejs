@@ -1,6 +1,7 @@
 <script >
-import {store} from './store'
+import {store} from './store';
 import MainComp from './components/MainComp.vue';
+
 
 export default{
   name: 'App',
@@ -25,9 +26,12 @@ export default{
 </template>
 
 <style lang="scss">
-@use "./style/main.scss";
-.animate__animated.animate__rubberBand{
+@use './style/main.scss' as *;
 
-    animation-delay: 2s;
+div{
+  
+  h1{
+    color: $Gray;
+  }
 }
 </style>
