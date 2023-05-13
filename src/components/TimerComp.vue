@@ -17,5 +17,6 @@ export default{
 div{
     height: 500px;
     background-image: url(/images/coutdown-bg1.jpg);
+    background-position-y: center;
 }
 </style>
