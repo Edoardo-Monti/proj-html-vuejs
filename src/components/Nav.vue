@@ -6,7 +6,7 @@ export default{
 </script>
 
 <template>
-<nav class="w-75 mx-auto d-flex justify-content-between align-items-center p-3">
+<nav class="w-75 mx-auto d-flex justify-content-between align-items-center p-4">
     <div id="logo">
         <img class="d-block" src="/images/logo.png" alt="">
     </div>
