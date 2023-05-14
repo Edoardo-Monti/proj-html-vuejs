@@ -1,11 +1,13 @@
 <script>
+import ProgramComp from './ProgramComp.vue'
 import SpeakerComp from './SpeakerComp.vue';
 import TimerComp from './TimerComp.vue';
 import UsComp from './UsComp.vue';
 
+
 export default{
     name: "MainComp",
-    components: { UsComp, TimerComp, SpeakerComp }
+    components: { UsComp, TimerComp, SpeakerComp, ProgramComp }
 }
 
 </script>
@@ -14,6 +16,7 @@ export default{
 <UsComp/>
 <TimerComp/>
 <SpeakerComp/>
+<ProgramComp/>
 </template>
 
 <style lang="scss" scoped>
