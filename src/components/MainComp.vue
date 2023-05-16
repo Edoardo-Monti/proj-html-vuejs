@@ -7,11 +7,12 @@ import {store} from '../store';
 import ZoneComp from './ZoneComp.vue';
 import NewsComp from './NewsComp.vue';
 import TicketsComp from './TicketsComp.vue';
+import Presentation from './Presentation.vue';
 
 
 export default{
     name: "MainComp",
-    components: { UsComp, TimerComp, SpeakerComp, ProgramComp, ZoneComp, NewsComp, TicketsComp },
+    components: { UsComp, TimerComp, SpeakerComp, ProgramComp, ZoneComp, NewsComp, TicketsComp, Presentation },
     data(){
         return{
             store
@@ -29,6 +30,7 @@ export default{
 <ZoneComp/>
 <NewsComp/>
 <TicketsComp/>
+<Presentation/>
 </template>
 
 <style lang="scss" scoped>
